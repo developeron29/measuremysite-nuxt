@@ -1,0 +1,38 @@
+{
+  "name": "nuxt-measuremysite",
+  "version": "0.1.0",
+  "description": "Nuxt module for measuremy.site: cookieless web analytics your AI agent can read.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "types": "./module.d.ts",
+      "default": "./module.js"
+    }
+  },
+  "files": [
+    "module.js",
+    "module.d.ts",
+    "runtime",
+    "README.md",
+    "LICENSE"
+  ],
+  "dependencies": {
+    "@nuxt/kit": "^3.0.0 || ^4.0.0"
+  },
+  "license": "MIT",
+  "homepage": "https://measuremy.site/docs/install",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developeron29/measuremysite-nuxt.git"
+  },
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "analytics",
+    "web-analytics",
+    "cookieless",
+    "privacy",
+    "mcp",
+    "measuremy.site"
+  ]
+}
